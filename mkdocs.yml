@@ -1,0 +1,66 @@
+# Project information
+site_name: インターンアプリ開発資料
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+
+theme:
+  name: material
+  palette:
+    primary: light blue
+  features:
+    - header.autohide
+
+extra_css:
+    - https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css
+
+extra_javascript:
+    - https://code.jquery.com/jquery-1.12.4.min.js
+    - https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js
+
+nav:
+    - はじめに: 'index.md'
+    - WiFi設定: './pages/WiFi設定/settingWiFi.md'
+    - 環境構築:
+        - 1. 環境構築を行う際の注意点: './pages/環境構築/environment_01.md'
+        - 2. VisualStudioCodeのインストール: './pages/環境構築/environment_02.md'
+        - 3. gitの設定: './pages/環境構築/environment_03.md'
+        - 4. npmのインストール: './pages/環境構築/environment_04.md'
+        - 5. Expo CLIのインストール: './pages/環境構築/environment_05.md'
+        - 6. リポジトリをclone: './pages/環境構築/environment_06.md'
+        - 7. ブランチを切り替える: './pages/環境構築/environment_07.md'
+        - 8. node_modulesのインストール: './pages/環境構築/environment_08.md'
+        - 9. Expo Goのインストール: './pages/環境構築/environment_09.md'
+    - アプリ実行:
+        - 1. Expo起動: './pages/アプリ実行/appExecution_01.md'
+        - 2. Expo Go起動: './pages/アプリ実行/appExecution_02.md'
+        - 3. ポート解放: './pages/アプリ実行/appExecution_03.md'
+        - 4. ポート解放してもできない場合: './pages/アプリ実行/appExecution_04.md'
+    - プログラミング基礎:
+        - 1. VisualStudioCodeを起動: './pages/プログラミング基礎/basis_01.md'
+        - 2. 文字を表示してみよう: './pages/プログラミング基礎/basis_02.md'
+        - 3. ボタンを置いてみよう: './pages/プログラミング基礎/basis_03.md'
+        - 4. 関数を追加しよう: './pages/プログラミング基礎/basis_04.md'
+        - 5. 変数を知ろう: './pages/プログラミング基礎/basis_05.md'
+        - 6. ifで分岐処理を追加しよう: './pages/プログラミング基礎/basis_06.md'
+        - 7. for分で繰り返し処理を追加しよう: './pages/プログラミング基礎/basis_07.md'
+        - 8. 完成品サンプル: './pages/プログラミング基礎/basis_08.md'
+    - アプリ開発:
+        - 0. アプリの仕様: './pages/アプリ開発/appDevelopment_01.md'
+        - 1. 画面を移動してみよう: './pages/アプリ開発/appDevelopment_02.md'
+        - 2. ファイル確認: './pages/アプリ開発/appDevelopment_03.md'
+        - 3. 画像を表示してみよう: './pages/アプリ開発/appDevelopment_04.md'
+        - 4. マップを表示してみよう: './pages/アプリ開発/appDevelopment_05.md'
+        - 5. 星座、店舗情報を表示してみよう: './pages/アプリ開発/appDevelopment_06.md'
+        - 6. 完成品サンプル: './pages/アプリ開発/appDevelopment_07.md'
+    - コードレビュー:
+        - 1. 変更したファイルを確認しよう: './pages/コードレビュー/review_01.md'
+        - 2. コードをステージングしよう: './pages/コードレビュー/review_02.md'
+        - 3. コミットしよう: './pages/コードレビュー/review_03.md'
+        - 4. GitHubにプッシュしよう: './pages/コードレビュー/review_04.md'
+        - 5. プルリクエストをしてみよう: './pages/コードレビュー/review_05.md'
+        - 6. レビュー中: './pages/コードレビュー/review_06.md'
+        - 7. コードを修正してみよう: './pages/コードレビュー/review_07.md'
+        - 8. 再プッシュしてみよう: './pages/コードレビュー/review_08.md'
+    - アンケート: './pages/アンケート/questionnaire.md'
