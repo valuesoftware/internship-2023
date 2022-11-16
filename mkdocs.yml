@@ -21,6 +21,7 @@ extra_javascript:
 
 nav:
     - はじめに: 'index.md'
+    - タイムテーブル: './pages/タイムテーブル/timetable.md'
     - WiFi設定: './pages/WiFi設定/settingWiFi.md'
     - 環境構築:
         - 1. 環境構築を行う際の注意点: './pages/環境構築/environment_01.md'
