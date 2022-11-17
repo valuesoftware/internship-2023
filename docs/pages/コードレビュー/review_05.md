@@ -4,7 +4,11 @@ hide:
 ---
 # <i class="fa fa-arrow-circle-right" aria-hidden="true"></i> コードレビュー
 
-## 5. pull requestしてみよう
+## 5. プルリクエストをしてみよう
+
+!!! Note 
+    プルリクエストとは、変更したファイル等を他のブランチに反映(マージ)するために、レビュアーに通知を行う機能です。<br>
+    レビュアーは変更されたコードやファイルを確認し、問題なければマージを行い、バグや間違いがあれば指摘を行う。
 
   - Githubの、star-search-appリポジトリへ移動
 <a href="../../../images/コードレビュー/コードレビュー_05.png" data-lightbox="スクリーンショット">
