@@ -117,7 +117,6 @@ hide:
         });
 
         export default Tutolial
-        ```
 
-        <img src="../../../images/プログラミング基礎/プログラミング基礎_1_09.png" width=300></img>
+<img src="../../../images/プログラミング基礎/プログラミング基礎_1_09.png" width=300></img>
 

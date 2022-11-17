@@ -4,7 +4,11 @@ hide:
 ---
 #　<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 環境構築
 
-### 8. node_modulesのインストール
+!!! Note
+    パッケージとは、様々な処理を格納したプログラムファイルの塊です。<br>
+    インストールすることで、様々なプログラムを書かずに効率よく開発を行うことができます。
+
+### 8. パッケージをインストール
 
     $ npm install
 
