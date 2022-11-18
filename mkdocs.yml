@@ -55,6 +55,10 @@ nav:
         - 4. マップを表示してみよう: './pages/アプリ開発/appDevelopment_05.md'
         - 5. 星座、店舗情報を表示してみよう: './pages/アプリ開発/appDevelopment_06.md'
         - 6. 完成品サンプル: './pages/アプリ開発/appDevelopment_07.md'
+    - カスタマイズしてみよう:
+        - 1. カスタマイズするファイルへ移動しましょう: './pages/カスタマイズ/customization_01.md'
+        - a. ホットペッパーの表示項目を変えよう: './pages/カスタマイズ/customization_02.md'
+        - b. 文字の色やサイズを変えよう: './pages/カスタマイズ/customization_03.md'
     - コードレビュー:
         - 1. 変更したファイルを確認しよう: './pages/コードレビュー/review_01.md'
         - 2. コードをステージングしよう: './pages/コードレビュー/review_02.md'
