@@ -95,6 +95,6 @@ hide:
 
 ### 2. アカウント設定を行う
 
-    $ git config --global user.name "ユーザー名"
+    $ git config --global user.name "i-r.aiura-vsc"
     
-    $ git config --global user.email "メールアドレス"
+    $ git config --global user.email "i-r.aiura@valuenet.co.jp"

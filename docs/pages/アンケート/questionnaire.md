@@ -4,10 +4,4 @@ hide:
 ---
 # <i class="fa fa-arrow-circle-right" aria-hidden="true"></i> アンケート
 
-- インターン実施内容についての感想
-- インターン実施内容についての要望
-- プログラミングを体験してみた感想
-- このインターンシップの参加理由
-- 説明者の声は聞き取りやすかったか、分かりやすかったか
-- 理解できた内容(思いつく限りで大丈夫です)
-- 作ってみたい、あったらいいなと思うアプリ
+## [こちらの](https://docs.google.com/forms/d/e/1FAIpQLSfJMHtfsGMh0uICB5MNKm4UZosLtK6I3wHOE0EAHNke1NX0QQ/viewform)URLから回答してください

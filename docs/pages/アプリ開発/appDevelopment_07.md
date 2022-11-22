@@ -13,13 +13,13 @@ hide:
 
         // コンポーネント読み込み
         {/* 3-1 */}
-        import ImageView from '.../../../components/atoms/ImageView';
+        import ImageView from '../components/atoms/ImageView';
 
         {/* 4-1 */}
-        import {getLocationAsync} from '.../../../util/Common'
+        import {getLocationAsync} from '../util/Common'
 
         {/* 5-1 */}
-        import ContentsTab from '.../../../components/Molecules/tab/ContentsTab';
+        import ContentsTab from '../components/Molecules/tab/ContentsTab';
 
         const Home = () => {
 
