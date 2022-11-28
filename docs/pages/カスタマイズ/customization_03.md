@@ -6,24 +6,24 @@ hide:
 
 ## 文字の色やサイズを変えよう
 
-- 176行目辺りに移動し、下記のコードがあることを確認してください。この部分が文字やレイアウト等の見た目を変えます。
+- 175行目辺りに移動し、下記のコードがあることを確認してください。この部分が文字やレイアウト等の見た目を変えます。
 
         const styles = StyleSheet.create({
-                container: {
-                        flex:1,
-                        backgroundColor: '#fff',
-                        alignItems: 'center',
-                        justifyContent: 'center',
-                        paddingTop: Platform.OS === "android" ? StatusBar.currentHeight : 0
-                },
-                colum: {
-                        fontSize:14,
-                        fontWeight: "bold",
-                        marginTop:10
-                },
-                text: {
-                        fontSize:20,
-                },
+            container: {
+                flex:1,
+                backgroundColor: '#fff',
+                alignItems: 'center',
+                justifyContent: 'center',
+                paddingTop: Platform.OS === "android" ? StatusBar.currentHeight : 0
+            },
+            column: {
+                fontSize:14,
+                fontWeight: "bold",
+                marginTop:10
+            },
+            text: {
+                fontSize:20,
+            },
         });
 
 !!! Note

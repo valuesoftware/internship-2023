@@ -6,5 +6,5 @@ hide:
 
 ## スマホのWiFi接続確認
 
-  - 21_VscEXNet_Aを選択
+  - 21_VscEXNet_Gを選択
   - パスワードは口頭でお伝えします
