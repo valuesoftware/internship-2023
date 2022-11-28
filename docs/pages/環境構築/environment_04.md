@@ -7,7 +7,7 @@ hide:
 ## 4. npmのインストール
 
 !!! Note
-    Node.jsとはWebページ作成などの際に使われるJavaScript言語の実行環境で、このNode.jsの様々なプログラムを管理することができるのがnpmです。
+    Webページ作成などの際に使われるJavaScript言語の実行環境にNode.jsというものがあります。<br>このNode.jsの様々なプログラムを管理することができるのがnpmです。
 
 ### Windowsの場合
 ??? インストール方法
