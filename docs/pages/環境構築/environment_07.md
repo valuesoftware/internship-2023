@@ -12,7 +12,7 @@ hide:
 
 ### 1. ディレクトリを移動する
 
-    cd star-search-app
+    $ cd star-search-app
 
 
 ### 2. ブランチを切り替える

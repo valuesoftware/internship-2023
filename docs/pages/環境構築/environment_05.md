@@ -16,6 +16,6 @@ hide:
 Expoをインストール
 
 ```
-& npm install expo-cli --g
+$ npm install expo-cli --g
 ```
 

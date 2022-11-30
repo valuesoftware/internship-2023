@@ -5,7 +5,7 @@ hide:
 # <i class="fa fa-arrow-circle-right" aria-hidden="true"></i> コードレビュー
 
 !!!Warning
-    WindowsはコマンドプロンプトorGitBash
+    Windowsはコマンドプロンプトまたは、GitBash
 
     Macはターミナルで行う
 
