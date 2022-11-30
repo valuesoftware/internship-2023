@@ -89,7 +89,7 @@ hide:
 
     <img src="../../../images/環境構築/windows/Git_014.jpeg"/>
 
-1.  コマンドプロンプトから確認<br>
+1.  コマンドプロンプトから確認　※表示されない場合は、一度ウインドウを閉じて再実行してください<br>
 
     <img src="../../../images/環境構築/windows/Git_015.jpeg"/>
 
