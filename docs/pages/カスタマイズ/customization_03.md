@@ -35,7 +35,7 @@ hide:
                 }
 
 
-    container、colum、textがセレクタと呼ばれる部分で、どの要素の見た目を変えるのか定義しています。<br>
+    container、column、textがセレクタと呼ばれる部分で、どの要素の見た目を変えるのか定義しています。<br>
     fontSizeやfontWeightがプロパティと呼ばれる部分で、そのセレクタのどこを変えるのか定義しています。
 
 - 文字をどう変更したいか決めてみましょう。下記以外にもいっぱいあります。
@@ -53,10 +53,10 @@ hide:
 	`#`の後ろに6桁の16進数で色を指定することができます。この6桁は前から2桁ごとに、赤・緑・青の濃淡が決まります。<br>
 	例えば赤にしたい場合は`#FF0000`
 
-- 選んだプロパティをセレクタ`columと`、`text`に反映してみよう
+- 選んだプロパティをセレクタ`column`、`text`に反映してみよう
     - テキストの背景色を変えたい時
 
-			colum: {
+			column: {
 				fontSize:14,
 				fontWeight: "bold",
 				marginTop:10,
@@ -65,7 +65,7 @@ hide:
 
 	- テキストの配置を真ん中にしたい時
 
-			colum: {
+			column: {
 				fontSize:14,
 				fontWeight: "bold",
 				marginTop:10,

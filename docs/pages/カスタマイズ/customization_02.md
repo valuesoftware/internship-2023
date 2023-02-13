@@ -8,7 +8,7 @@ hide:
 
 - 116行目辺りに移動し、下記のコードがあることを確認してください。
 
-        {/*<Text style={styles.colum}>自由に項目名を記入しよう</Text>
+        {/*<Text style={styles.column}>自由に項目名を記入しよう</Text>
         <Text style={styles.text}>{info.要素名を入力しよう}</Text>*/}
 
 -  ホットペッパーAPIには様々な項目が用意されています。その中から表示したい内容を以下の表から選んでください(複数可)
@@ -37,5 +37,5 @@ hide:
 
       - 例えば飲み放題有無を表示したいとき
 
-			<Text style={styles.colum}>飲み放題の有無</Text>
+			<Text style={styles.column}>飲み放題の有無</Text>
 			<Text style={styles.text}>{info.free_drink}</Text>
