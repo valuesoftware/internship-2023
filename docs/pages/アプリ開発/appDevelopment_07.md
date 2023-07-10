@@ -9,7 +9,7 @@ hide:
     import React, { useState, useEffect } from 'react';
     import { NativeBaseProvider } from 'native-base';
     import { StyleSheet, Text, View, TouchableHighlight, Linking, SafeAreaView, Platform, StatusBar } from 'react-native';
-    import MapView from 'react-native-maps';
+    import MapView,{ Marker } from 'react-native-maps';
 
     // コンポーネント読み込み
     {/* 3-1 */ }
@@ -67,7 +67,7 @@ hide:
             return (
                 shopList.map((shop, index) => {
                     return(
-                        <MapView.Marker
+                        <Marker
                             key={index}
                             coordinate={{
                                 latitude: Number(shop.lat),
@@ -135,7 +135,7 @@ hide:
                                 longitudeDelta: 0.002,
                             }}
                         >
-                            <MapView.Marker
+                            <Marker
                                 coordinate={{
                                     latitude: latitude,
                                     longitude: longitude,

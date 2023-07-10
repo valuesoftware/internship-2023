@@ -58,7 +58,7 @@ hide:
             return (
                 shopList.map((shop, index) => {
                     return(
-                        <MapView.Marker
+                        <Marker
                             key={index}
                             coordinate={{
                                 latitude: Number(shop.lat),
@@ -111,7 +111,7 @@ hide:
                 longitudeDelta: 0.002,
             }}
         >
-            <MapView.Marker
+            <Marker
                 coordinate={{
                     latitude: latitude,
                     longitude: longitude,
