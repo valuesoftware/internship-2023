@@ -10,7 +10,7 @@ hide:
      `~/star_search_app`で実行
             
 ```
-$ expo start
+$ npx expo start
 ```
 
 - QRコードが表示されることを確認する
