@@ -51,24 +51,32 @@ hide:
         $ npm -v
         8.1.2
 
+    ・npxをインストール
+
+        $ npm install npx -g
+
     - 以下は、すでに古いnodeのバージョンが入っている場合の手順
 
-          - 指定のNode.jsバージョンを取得しインストール<br>
+        - 指定のNode.jsバージョンを取得しインストール<br>
 
-                    $ nodist + 16.13.2
-                    
-                    $ nodist 16.13.2
+                $ nodist + 16.13.2
+                
+                $ nodist 16.13.2
 
-          - インストールしたnodeのバージョンに合わせてnpmをバージョンアップ<br>
+        - インストールしたnodeのバージョンに合わせてnpmをバージョンアップ<br>
 
-                    $ nodist npm match
+                $ nodist npm match
 
-          - インストールされたNode.jsとNPMのバージョンを確認する<br>
+        - インストールされたNode.jsとNPMのバージョンを確認する<br>
 
-                    $ node -v
-                    v16.13.2
-                    $ npm -v
-                    8.1.2
+                $ node -v
+                v16.13.2
+                $ npm -v
+                8.1.2
+
+        - npxをインストール
+
+                $ npm install npx -g
 
     
 
