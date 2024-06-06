@@ -7,7 +7,7 @@ hide:
 ## 8. 完成品サンプル
 
     import React, { useState } from 'react';
-    import { View, Text, StyleSheet } from 'react-native';
+    import { View, Text, StyleSheet, Platform } from 'react-native';
     import { Button, NativeBaseProvider } from 'native-base';
     import { StatusBar } from "expo-status-bar";
 
