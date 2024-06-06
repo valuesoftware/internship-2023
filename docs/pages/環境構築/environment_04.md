@@ -41,15 +41,36 @@ hide:
 
     ・指定のNode.jsバージョンを取得しインストール<br>
 
-        $ nodist + v14.3.0
-        $ nodist v14.3.0
+        $ nodist + 16.13.2
+        $ nodist 16.13.2
 
     ・インストールされたNode.jsとNPMのバージョンを確認する<br>
 
         $ node -v
-        v14.3.0
+        v16.13.2
         $ npm -v
-        6.9.0
+        8.1.2
+
+    - 以下は、すでに古いnodeのバージョンが入っている場合の手順
+
+          - 指定のNode.jsバージョンを取得しインストール<br>
+
+                    $ nodist + 16.13.2
+                    
+                    $ nodist 16.13.2
+
+          - インストールしたnodeのバージョンに合わせてnpmをバージョンアップ<br>
+
+                    $ nodist npm match
+
+          - インストールされたNode.jsとNPMのバージョンを確認する<br>
+
+                    $ node -v
+                    v16.13.2
+                    $ npm -v
+                    8.1.2
+
+    
 
 ### MacBookの場合
 ??? インストール方法
