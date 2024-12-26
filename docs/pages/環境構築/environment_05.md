@@ -13,9 +13,23 @@ hide:
     そのReact Nativeの開発環境となるのがExpoです。
 
 
-Expoをインストール
+1.Expoをインストール
 
 ```
 $ npm install expo-cli --g
 ```
 
+2.EAS CLIをインストール
+
+```
+$ npm i -g eas-cli
+```
+
+3.EASアカウントでログイン
+
+  - アカウントはEASアカウントを作成する必要があります
+  - **※ログインは必ず必要ではありませんが、iOSをExpo Go上で動かす場合は必要になるケースが多いです**
+
+```
+$ eas login 
+```

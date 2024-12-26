@@ -10,8 +10,39 @@ hide:
     Webページ作成などの際に使われるJavaScript言語の実行環境にNode.jsというものがあります。<br>このNode.jsの様々なプログラムを管理することができるのがnpmです。
 
 ### Windowsの場合
-??? インストール方法
+??? インストール方法-ExpoSDK52以降-
+    1.[インストールを行う](https://github.com/coreybutler/nvm-windows/releases)
 
+    - `nvm-setup.exe`をダウンロード
+
+    <img src="../../../images/環境構築/windows/nvm_001.png"/>
+
+    2. ダウンロードした`nvm-setup.exe`を実行
+    3. 特に項目を変えることなくインストールを続行
+    4. インストール可能なものを調べる(次にインストールするnodeのバージョンが含まれていればOK)<br>
+
+            $ nvm list available
+
+    5. nodeをインストール
+
+            $ nvm install 18.20.5
+
+    6. nodeのバージョンを切り替える
+
+            $ nvm use 18.20.5
+
+    7. インストールされたnodeとnpmのバージョンを確認する(以下のバージョンが表示されていればOK)
+
+            $ node -v
+
+            18.20.5
+
+
+            $ npm -v
+
+            10.8.2
+
+??? インストール方法-ExpoSDK51以前-
     1.[インストールを行う](https://github.com/nullivex/nodist/releases)
 
     <img src="../../../images/環境構築/windows/Nodist_007.png"/>
