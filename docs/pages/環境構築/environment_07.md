@@ -19,8 +19,8 @@ hide:
    
     $ git checkout develop
 
-    $ git checkout -b 2022/今月の月/名前
+    $ git checkout -b 2025/今月の月/名前
 
     // 例えば
-    $ git checkout -b 2022/01/aiura
+    $ git checkout -b 2025/01/aiura
 
