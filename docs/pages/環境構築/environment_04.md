@@ -133,13 +133,13 @@ hide:
 
     3.nodeをインストールを
 
-        $ nodebrew install-binary v14.3.0
+        $ nodebrew install-binary v18.18.2
 
     * * *
 
     4.使用するnodeのバージョンを設定
 
-        $ nodebrew use v14.3.0
+        $ nodebrew use v18.18.2
 
     * * *
 
@@ -150,8 +150,8 @@ hide:
 
     * * *
 
-    6.`npm -v`を実行しバージョンを確認。`v14.3.0`と表示されていればOK
+    6.`npm -v`を実行しバージョンを確認。`v18.18.2`と表示されていればOK
 
         $ npm -v
 
-        v14.3.0
+        v18.18.2
