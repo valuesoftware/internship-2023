@@ -7,7 +7,6 @@ hide:
 ## 6. 完成品サンプル
 
     import React, { useState, useEffect } from 'react';
-    import { NativeBaseProvider } from 'native-base';
     import { StyleSheet, Text, View, TouchableHighlight, Linking, SafeAreaView, Platform, StatusBar } from 'react-native';
     import MapView,{ Marker } from 'react-native-maps';
 
@@ -102,19 +101,17 @@ hide:
 
         return (
             <SafeAreaView style={styles.root}>
-                <NativeBaseProvider>
-                    <View style={styles.container}>
-
-                        {/* 3-2 */}
-                        <TouchableHighlight
-                            onPress={() =>
-                                Linking.openURL('http://webservice.recruit.co.jp/')
-                            }
-                            style={{margin:10}}
-                        >
-                            {/* 画像表示 */}
-                            <ImageView width={135} height={17} uri={'http://webservice.recruit.co.jp/banner/hotpepper-s.gif'}/>
-                        </TouchableHighlight>
+                <View style={styles.container}>
+                    {/* 3-2 */}
+                    <TouchableHighlight
+                        onPress={() =>
+                            Linking.openURL('http://webservice.recruit.co.jp/')
+                        }
+                        style={{margin:10}}
+                    >
+                        {/* 画像表示 */}
+                        <ImageView width={135} height={17} uri={'http://webservice.recruit.co.jp/banner/hotpepper-s.gif'}/>
+                    </TouchableHighlight>
 
                         {/* 4-3 */}
                         <Text style={styles.text}>検索したい場所をタップしてください</Text>
@@ -147,16 +144,15 @@ hide:
                         </MapView>
                         <Text style={styles.text}>緯度:{Math.floor(Number(latitude)*10000)/10000} 経度:{Math.floor(Number(longitude)*10000)/10000}</Text>
 
-                        {/* 5-2 */}
-                        {/* タブ表示 */}
-                        <ContentsTab 
-                            latitude={latitude} // 緯度
-                            longitude={longitude} // 経度
-                            setShowLocate={(l)=>setShowLocate(l)}
-                            setShopList={(list)=>setShopList(list)} // 店舗情報
-                        />
-                    </View>
-                </NativeBaseProvider>
+                    {/* 5-2 */}
+                    {/* タブ表示 */}
+                    <ContentsTab 
+                        latitude={latitude} // 緯度
+                        longitude={longitude} // 経度
+                        setShowLocate={(l)=>setShowLocate(l)}
+                        setShopList={(list)=>setShopList(list)} // 店舗情報
+                    />
+                </View>
             </SafeAreaView>
         );
     }

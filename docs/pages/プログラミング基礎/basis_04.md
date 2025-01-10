@@ -42,7 +42,9 @@ hide:
 - 50行辺り: ``{/* 3 */}{/* 4-4 */}``	← この下のコードを変更してください
   
 
-        <Button onPress={() => countUp() }>カウントアップ</Button>
+        <Button onPress={() => countUp() }>
+                <ButtonText>カウントアップ</ButtonText>
+        </Button>
 
 
 <img src="../../../images/プログラミング基礎/プログラミング基礎_1_06.png" width=400 ></img>
