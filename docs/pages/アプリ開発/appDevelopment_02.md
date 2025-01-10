@@ -9,7 +9,9 @@ hide:
 - 94行辺り: 最初の``{/*``と 最後の``*/}`` を削除してください
 
 
-        <Button onPress={() => navigation.navigate('Home')} style={{marginTop:10}}>ボタン</Button>
+        <Button onPress={() => navigation.navigate('Home')} style={{marginTop:10}}>
+          <ButtonText>ボタン</ButtonText>
+        </Button>
 
 
 <img src="../../../images/アプリ開発/アプリ開発_1_04.png" width=300></img>
